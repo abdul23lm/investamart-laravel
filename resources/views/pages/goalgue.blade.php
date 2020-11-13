@@ -5,7 +5,7 @@ Investamart | Goal Gue
 @endsection
 
 @section('content')
-    <section class="goal-gue">
+    <section class="goal-gue" data-aos="fade-up">
         <div class="container">
             <div class="card align-items-center">
                 <h1>

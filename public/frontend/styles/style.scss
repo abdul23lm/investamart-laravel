@@ -1,3 +1,18 @@
+// General
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
 @media screen and (min-width: 1024px) {
     img {
         max-width: 100%;
@@ -34,6 +49,8 @@ span {
         padding: 20px;
     }
 }
+
+// investamart-quiz
 
 .investamart-quiz {
     text-align: center;
@@ -89,6 +106,13 @@ span {
             font-size: 24px;
             text-transform: uppercase;
             font-weight: 900;
+            transition: 0.5s;
+        }
+
+        .btn-mulai:hover {
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+            background: #fff;
+            color: #000;
         }
 
         @media screen and (min-width: 1024px) {
@@ -229,6 +253,13 @@ span {
                 text-transform: uppercase;
                 font-weight: 900;
                 margin-top: 18px;
+                transition: 0.5;
+            }
+
+            .btn-lanjut:hover {
+                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+                background: #fff;
+                color: #000;
             }
 
             @media screen and (min-width: 1024px) {
@@ -256,6 +287,13 @@ span {
                 text-transform: uppercase;
                 font-weight: 900;
                 margin-top: 18px;
+                transition: 0.5;
+            }
+
+            .btn-ulang:hover {
+                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+                background: #fff;
+                color: #000;
             }
 
             @media screen and (min-width: 1024px) {
@@ -292,7 +330,8 @@ span {
 
 }
 
-.investamart-result {
+// investamart-result
+ .investamart-result {
     .card {
         text-align: center;
         max-width: 100%;
@@ -424,6 +463,13 @@ span {
                 border-radius: 10px;
                 text-transform: uppercase;
                 font-weight: 900;
+                transition: 0.5;
+            }
+
+            .btn-share:hover {
+                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+                background: #fff;
+                color: #000;
             }
 
             @media screen and (min-width: 1024px) {
@@ -487,6 +533,13 @@ span {
                 border: none;
                 border-radius: 10px;
                 cursor: pointer;
+                transition: 0.5;
+            }
+
+            input[type=submit]:hover {
+                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+                background: #fff;
+                color: #000;
             }
 
             @media screen and (min-width: 1024px) {
@@ -521,6 +574,8 @@ span {
     }
 }
 
+
+// Goal Gue
 .goal-gue {
     .card {
         align-items: center;

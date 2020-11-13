@@ -5,5 +5,6 @@
 
     <!-- Vendor -->
     <link rel="stylesheet" href="{{ url('frontend/libraries/bootstrap/css/bootstrap.min.css') }}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Style -->
     <link rel="stylesheet" href="{{ url('frontend/styles/style.css') }}">

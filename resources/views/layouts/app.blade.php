@@ -17,8 +17,10 @@
 
     @yield('content')
 
-
     @include('components.includes.script')
+    <script>
+    AOS.init();
+    </script>
     @stack('script')
 </body>
 </html>

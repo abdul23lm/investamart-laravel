@@ -1,4 +1,4 @@
-  <section class="investamart-result">
+  <section class="investamart-result" data-aos="fade-up">
         <div class="container">
             <div class="row">
             <div class="card align-items-center" style="

@@ -5,7 +5,7 @@ Investamart | Homepage
 @endsection
 
 @section('content')
-<section class="investamart-quiz">
+<section class="investamart-quiz" data-aos="fade-up">
     <div class="container">
         <div class="row">
         <div class="card align-items-center">

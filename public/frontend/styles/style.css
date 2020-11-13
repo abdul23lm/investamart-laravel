@@ -1,3 +1,18 @@
+/* General */
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
 @media screen and (min-width: 1024px) {
   img {
     max-width: 100%;
@@ -89,6 +104,15 @@ span {
   font-size: 24px;
   text-transform: uppercase;
   font-weight: 900;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.investamart-quiz .card .btn-mulai:hover {
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  color: #000;
 }
 
 @media screen and (min-width: 1024px) {
@@ -225,6 +249,15 @@ span {
   text-transform: uppercase;
   font-weight: 900;
   margin-top: 18px;
+  -webkit-transition: 0.5;
+  transition: 0.5;
+}
+
+.investamart-quiz .card .submition .btn-lanjut:hover {
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  color: #000;
 }
 
 @media screen and (min-width: 1024px) {
@@ -252,6 +285,15 @@ span {
   text-transform: uppercase;
   font-weight: 900;
   margin-top: 18px;
+  -webkit-transition: 0.5;
+  transition: 0.5;
+}
+
+.investamart-quiz .card .submition .btn-ulang:hover {
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  color: #000;
 }
 
 @media screen and (min-width: 1024px) {
@@ -414,6 +456,15 @@ span {
   border-radius: 10px;
   text-transform: uppercase;
   font-weight: 900;
+  -webkit-transition: 0.5;
+  transition: 0.5;
+}
+
+.investamart-result .card .conclusion .btn-share:hover {
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  color: #000;
 }
 
 @media screen and (min-width: 1024px) {
@@ -474,6 +525,15 @@ span {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  -webkit-transition: 0.5;
+  transition: 0.5;
+}
+
+.investamart-result .card .investation input[type=submit]:hover {
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  color: #000;
 }
 
 @media screen and (min-width: 1024px) {

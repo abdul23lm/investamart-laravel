@@ -1,10 +1,11 @@
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1024px) {
     img {
         max-width: 100%;
     }
 }
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 991px) {
     img {
         max-width: 80%;
     }
@@ -21,14 +22,14 @@ span {
 
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1024px) {
     span {
         padding: 0px 160px 0px 160px;
 
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 991px) {
     span {
         padding: 20px;
     }
@@ -39,10 +40,9 @@ span {
 
     .card {
         align-items: center;
-        background: url('../images/Quiz/quiz-ornament.png') no-repeat center;
+        background: url('../images/Quiz/quiz-ornament.png') no-repeat center top 20%;
         background-color: #FBB03B;
-        max-width: 96%;
-
+        max-width: 100%;
 
         .top-title {
             color: #fff;
@@ -53,19 +53,19 @@ span {
             padding: 0px 40px 0px 40px;
         }
 
-        @media screen and (min-width: 900px) {
+        @media screen and (min-width: 1024px) {
             .hero-image {
                 margin-top: 40px;
             }
         }
-        
+
         p {
             color: #fff;
             font-weight: 600;
             text-align: center;
         }
 
-        @media screen and (min-width: 900px) {
+        @media screen and (min-width: 1024px) {
             p {
                 font-size: 24px;
                 padding: 60px 160px 40px 160px;
@@ -73,7 +73,7 @@ span {
             }
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 991px) {
             p {
                 font-size: 10px;
                 padding: 20px 50px 0px 50px;
@@ -91,14 +91,14 @@ span {
             font-weight: 900;
         }
 
-        @media screen and (min-width: 900px) {
+        @media screen and (min-width: 1024px) {
             .btn-mulai {
                 font-size: 24px;
                 margin-bottom: 200px;
             }
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 991px) {
             .btn-mulai {
                 font-size: 10px;
                 margin-bottom: 60px;
@@ -112,41 +112,41 @@ span {
             text-align: center;
         }
 
-        @media screen and (min-width: 900px) {
+        @media screen and (min-width: 1024px) {
             h1 {
                 font-size: 98px;
                 padding: 120px
             }
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 991px) {
             h1 {
                 font-size: 28px;
                 padding: 20px
             }
         }
 
-        @media screen and (min-width: 900px) {
+        @media screen and (min-width: 1024px) {
             .hero-icon {
                 margin-top: 40px;
                 max-width: 100%;
             }
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 991px) {
             .hero-icon {
                 max-width: 50%;
             }
         }
 
-        @media screen and (min-width: 900px) {
+        @media screen and (min-width: 1024px) {
             form {
                 padding: 0px 100px 0px 100px;
                 margin-bottom: 200px;
             }
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 991px) {
             form {
                 padding: 0px 20px 0px 20px;
                 margin-bottom: 80px;
@@ -161,13 +161,13 @@ span {
                 font-weight: 900;
             }
 
-            @media screen and (min-width: 900px) {
+            @media screen and (min-width: 1024px) {
                 label {
                     font-size: 42px;
                 }
             }
 
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 991px) {
                 label {
                     font-size: 20px;
                 }
@@ -179,14 +179,14 @@ span {
                     list-style: none;
                 }
 
-                @media screen and (min-width: 900px) {
+                @media screen and (min-width: 1024px) {
                     li {
                         font-size: 42px;
                         margin-left: 100px;
                     }
                 }
 
-                @media screen and (max-width: 600px) {
+                @media screen and (max-width: 991px) {
                     li {
                         font-size: 20px;
                         margin-left: 26px;
@@ -194,13 +194,13 @@ span {
                 }
             }
 
-            @media screen and (min-width: 900px) {
+            @media screen and (min-width: 1024px) {
                 ul {
                     margin-bottom: 200px;
                 }
             }
 
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 991px) {
                 ul {
                     margin-bottom: 80px;
                 }
@@ -209,13 +209,13 @@ span {
 
         .submition {
 
-            @media screen and (min-width: 900px) {
+            @media screen and (min-width: 1024px) {
                 span {
                     font-size: 24px;
                 }
             }
 
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 991px) {
                 span {
                     font-size: 12px;
                 }
@@ -231,7 +231,7 @@ span {
                 margin-top: 18px;
             }
 
-            @media screen and (min-width: 900px) {
+            @media screen and (min-width: 1024px) {
                 .btn-lanjut {
                     padding-right: 20px;
                     padding-left: 20px;
@@ -240,7 +240,7 @@ span {
                 }
             }
 
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 991px) {
                 .btn-lanjut {
                     padding: 10px;
                     font-size: 10px;
@@ -258,7 +258,7 @@ span {
                 margin-top: 18px;
             }
 
-            @media screen and (min-width: 900px) {
+            @media screen and (min-width: 1024px) {
                 .btn-ulang {
                     padding-right: 20px;
                     padding-left: 20px;
@@ -267,7 +267,7 @@ span {
                 }
             }
 
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 991px) {
                 .btn-ulang {
                     padding: 10px;
                     font-size: 10px;
@@ -277,12 +277,25 @@ span {
         }
     }
 
+    @media screen and (min-width: 1024px) {
+        .card {
+            background-size: 100%;
+        }
+    }
+
+    @media screen and (max-width: 991px) {
+        .card {
+            background-size: 100%;
+
+        }
+    }
+
 }
 
 .investamart-result {
     .card {
         text-align: center;
-        max-width: 96%;
+        max-width: 100%;
 
         .top-title {
             color: #fff;
@@ -293,26 +306,26 @@ span {
             padding: 0px 20px 0px 20px;
         }
 
-        @media screen and (min-width: 900px) {
+        @media screen and (min-width: 1024px) {
             .hero-image-result {
                 margin-bottom: 100px;
             }
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 991px) {
             .hero-image-result {
                 margin-bottom: 40px;
             }
         }
 
-        @media screen and (min-width: 900px) {
+        @media screen and (min-width: 1024px) {
             .hero-icon {
                 margin-top: 40px;
                 max-width: 100%;
             }
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 991px) {
             .hero-icon {
                 max-width: 50%;
             }
@@ -324,7 +337,7 @@ span {
             text-align: center;
         }
 
-        @media screen and (min-width: 900px) {
+        @media screen and (min-width: 1024px) {
             p {
                 font-size: 24px;
                 padding: 60px 160px 40px 160px;
@@ -332,7 +345,7 @@ span {
             }
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 991px) {
             p {
                 font-size: 10px;
                 padding: 20px
@@ -349,14 +362,14 @@ span {
                 font-weight: 600;
             }
 
-            @media screen and (min-width: 900px) {
+            @media screen and (min-width: 1024px) {
                 h4 {
                     font-size: 32px;
 
                 }
             }
 
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 991px) {
                 h4 {
                     font-size: 18px;
                 }
@@ -369,14 +382,14 @@ span {
                 font-weight: 900;
             }
 
-            @media screen and (min-width: 900px) {
+            @media screen and (min-width: 1024px) {
                 h1 {
                     font-size: 98px;
 
                 }
             }
 
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 991px) {
                 h1 {
                     font-size: 32px;
                 }
@@ -389,7 +402,7 @@ span {
                 font-weight: 900;
             }
 
-            @media screen and (min-width: 900px) {
+            @media screen and (min-width: 1024px) {
                 h3 {
                     padding: 0px 160px 0px 160px;
                     font-size: 32px;
@@ -397,7 +410,7 @@ span {
                 }
             }
 
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 991px) {
                 h3 {
                     padding: 0px 40px 0px 40px;
                     font-size: 18px;
@@ -413,15 +426,15 @@ span {
                 font-weight: 900;
             }
 
-            @media screen and (min-width: 900px) {
+            @media screen and (min-width: 1024px) {
                 .btn-share {
-                    width: 14%;
+                    // width: 14%;
                     font-size: 24px;
                     margin-bottom: 40px;
                 }
             }
 
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 991px) {
                 .btn-share {
                     font-size: 10px;
                     margin-bottom: 20px;
@@ -476,18 +489,15 @@ span {
                 cursor: pointer;
             }
 
-            @media screen and (min-width: 900px) {
+            @media screen and (min-width: 1024px) {
                 input[type=submit] {
-                    margin-right: -490px;
-                    width: 14%;
                     font-size: 24px;
                     margin-bottom: 80px;
                 }
             }
 
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 991px) {
                 input[type=submit] {
-                    margin-right: -90px;
                     font-size: 10px;
                     margin-bottom: 40px;
                 }
@@ -496,14 +506,27 @@ span {
         }
 
     }
+
+    @media screen and (min-width: 1024px) {
+        .card {
+            background-size: 100%;
+        }
+    }
+
+    @media screen and (max-width: 991px) {
+        .card {
+            background-size: 100%;
+
+        }
+    }
 }
 
 .goal-gue {
     .card {
         align-items: center;
-        background: url('../images/goalgue-ornament.png') no-repeat center top;
+        background: url('../images/goalgue-ornament.png') no-repeat center top 20%;
         background-color: #FBB03B;
-        max-width: 96%;
+        max-width: 100%;
 
         h1 {
             color: #ED1E79;
@@ -512,14 +535,14 @@ span {
             text-align: center;
         }
 
-        @media screen and (min-width: 900px) {
+        @media screen and (min-width: 1024px) {
             h1 {
                 font-size: 98px;
                 padding: 40px 120px
             }
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 991px) {
             h1 {
                 font-size: 28px;
                 padding: 20px
@@ -542,7 +565,7 @@ span {
                 box-sizing: border-box;
             }
 
-            @media screen and (min-width: 900px) {
+            @media screen and (min-width: 1024px) {
 
                 input[type=text],
                 input[type=number] {
@@ -550,7 +573,7 @@ span {
                 }
             }
 
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 991px) {
 
                 input[type=text],
                 input[type=number] {
@@ -570,14 +593,14 @@ span {
         }
 
         .gue-loe-footer {
-            @media screen and (min-width: 900px) {
+            @media screen and (min-width: 1024px) {
                 img {
                     max-width: 100%;
                     padding: 0px 0px 0px 80px;
                 }
             }
 
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 991px) {
                 img {
                     padding: 0px 0px 0px 20px;
                     max-width: 80%;
@@ -590,14 +613,14 @@ span {
                 padding: 10px;
             }
 
-            @media screen and (min-width: 900px) {
+            @media screen and (min-width: 1024px) {
                 .column {
                     margin-top: 100px;
                     margin-bottom: 80px;
                 }
             }
 
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 991px) {
                 .column {
                     margin-top: 20px;
                     margin-bottom: 40px;
@@ -613,7 +636,7 @@ span {
                 font-weight: 600;
             }
 
-            @media screen and (min-width: 900px) {
+            @media screen and (min-width: 1024px) {
                 p {
                     font-size: 28px;
                     padding: 0px 80px 0px 40px;
@@ -621,7 +644,7 @@ span {
                 }
             }
 
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 991px) {
                 p {
                     font-size: 12px;
                     padding: 0px 20px 0px 20px;

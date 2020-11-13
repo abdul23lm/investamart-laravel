@@ -34,7 +34,12 @@ Investamart | Result of Quiz
                         pariatur. Excepteur sint
                         occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
-                    <a href="" type="button" class="btn btn-share">Share ></a>
+            <a href=""   onclick="
+                window.open(
+                'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 
+                'facebook-share-dialog', 
+                'width=626,height=436'); 
+                return false;" type="button" class="btn btn-share">Share ></a>
 
 <x-resultfooter></x-resultfooter>                    
 @endsection

@@ -21,6 +21,7 @@ Investamart | Quiz
                             <span>Pertanyaan<br>3/10</span>
                             <a href="/question4" type="button" class="btn btn-lanjut">Lanjut ></a>
                 </div>
+                </div>
             </div>
         </div>
     </section>

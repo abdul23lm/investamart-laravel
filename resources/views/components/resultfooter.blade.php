@@ -14,6 +14,7 @@
             <input type="number" id="mobile" name="mobile" placeholder="MOBILE"><br><br>
             <input type="submit" value="Submit >">
             </form>
+            </div>    
             </div>
             </div>
         </div>

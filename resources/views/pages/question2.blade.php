@@ -16,7 +16,7 @@ Investamart | Quiz
                     <label for="q2b"> B > 3 - 5 tahun</label><hr>
                 </form>
                 <div class="row submition">
-                    <a href="/question2" type="button" class="btn btn-ulang">
+                    <a href="/question1" type="button" class="btn btn-ulang">
                         < Ulang</a>
                             <span>Pertanyaan<br>2/10</span>
                             <a href="/question3" type="button" class="btn btn-lanjut">Lanjut ></a>
